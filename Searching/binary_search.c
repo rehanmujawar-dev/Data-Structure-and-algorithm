@@ -34,6 +34,7 @@ int main()
     }
 }
 
+<<<<<<< HEAD
 // Algorithm: Binary Search
 
 // Step 1: Start.
@@ -61,3 +62,32 @@ int main()
 // Step 12: If flag == 0, print "Element is not found".
 
 // Step 13: Stop.
+=======
+Algorithm: Binary Search
+
+Step 1: Start.
+
+Step 2: Declare array arr[100] and variables n, i, key, mid, first, last, flag = 0.
+
+Step 3: Enter the size of the array n.
+
+Step 4: Enter n elements in sorted order.
+
+Step 5: Enter the key element to be searched.
+
+Step 6: Set first = 0 and last = n - 1.
+
+Step 7: Repeat while first <= last.
+
+Step 8: Calculate mid = (first + last) / 2.
+
+Step 9: If arr[mid] == key, print "Element is found at position mid + 1", set flag = 1, and go to Step 12.
+
+Step 10: If arr[mid] > key, set last = mid - 1. Otherwise, set first = mid + 1.
+
+Step 11: Repeat Steps 7 to 10 until the element is found or first > last.
+
+Step 12: If flag == 0, print "Element is not found".
+
+Step 13: Stop.
+>>>>>>> e6a66fb8816d2439879400c45235c7f1f308520b
