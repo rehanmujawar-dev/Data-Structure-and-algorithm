@@ -1,3 +1,19 @@
+Searching: Searching is the process of finding a specific element or key in a collection of data.
+
+Types of Searching:-
+
+There are two main types of searching techniques:
+
+1. Linear Search: It checks each element one by one until the required element is found or the list ends.
+
+2. Binary Search: It repeatedly divides a sorted list into two halves to find the required element.
+
+Other searching techniques include:
+- Jump Search
+- Interpolation Search
+- Exponential Search
+- Hashing
+
 1. Linear Search
 Theory
 Linear Search is a searching technique in which each element of a list is checked one by one until the required element (key) is found or the list ends. It works on both sorted and unsorted arrays.
