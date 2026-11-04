@@ -67,3 +67,41 @@ int main(){
         }
     }
 }
+
+/*
+Algorithm: Stack_Implementation
+
+Step 1: Start
+Step 2: Initialize top = -1
+Step 3: Read the size of stack
+Step 4: Repeat the following steps until choice = 4
+        Display menu:
+        1. Push
+        2. Pop
+        3. Display
+        4. Exit
+        Read choice
+Step 5: If choice = 1 then
+        a. If top = size - 1
+              Print "Stack is Full"
+        b. Otherwise
+              Read value
+              top = top + 1
+              arr[top] = value
+Step 6: If choice = 2 then
+        a. If top = -1
+              Print "Stack is Empty"
+        b. Otherwise
+              item = arr[top]
+              top = top - 1
+              Print deleted item
+Step 7: If choice = 3 then
+        a. If top = -1
+              Print "Stack is Empty"
+        b. Otherwise
+              Repeat for i = top to 0
+              Print arr[i]
+Step 8: If choice = 4 then
+        Print "Exit"
+Step 9: Stop
+*/
