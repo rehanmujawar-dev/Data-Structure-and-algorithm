@@ -116,3 +116,19 @@ It is also known as Polish Notation.
 Example:
 Infix   : A + B
 Prefix  : +AB
+
+# Stack Using Recursion – Theory
+**Definition**
+Recursion is a programming technique in which a function calls itself repeatedly to solve a problem. In recursion, the system uses a stack data structure called the Call Stack to manage function calls.
+
+Whenever a recursive function is called, its information is stored in the stack. When the function completes its execution, the information is removed from the stack.
+
+The stack follows the LIFO (Last In, First Out) principle.
+**Working of Stack in Recursion**
+The working of a stack in recursion is as follows:
+1. When a function calls itself, a new stack frame is created.
+2. The stack frame stores local variables, parameters, and the return address.
+3. Each recursive call is pushed onto the stack.
+4. When the base condition is reached, recursion stops.
+5. The functions return in reverse order of their calls.
+6. Each completed function call is popped from the stack.
