@@ -1,10 +1,10 @@
 # Stack & Queue 
+**1.Stack :-**
 
-# 1.Stack :-
-Definition of Stack
+```Definition of Stack
 A Stack is a linear data structure in which insertion and deletion of elements are performed only at one end, called the TOP.
-Stack follows the principle of LIFO (Last In, First Out). This means the element inserted last is removed first.
-Example: A stack of plates. The plate placed at the top is removed first.
+Stack follows the principle of LIFO (Last In, First Out). This means the element inserted last is removed first.```
+`Example: A stack of plates. The plate placed at the top is removed first.`
 
 Basic Operations of Stack
 
@@ -29,7 +29,7 @@ E.g
     │   10   │
     └────────┘
 
-# A stack can be implemented using two methods:
+**A stack can be implemented using two methods:**
 1. Static Implementation (Stack using Array)
 2. Dynamic Implementation (Stack using Linked List)
 
@@ -132,3 +132,5 @@ The working of a stack in recursion is as follows:
 4. When the base condition is reached, recursion stops.
 5. The functions return in reverse order of their calls.
 6. Each completed function call is popped from the stack.
+
+# Queue
