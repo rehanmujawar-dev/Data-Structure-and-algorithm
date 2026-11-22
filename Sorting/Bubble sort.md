@@ -1,12 +1,14 @@
 # 1. Sorting
+
+**Definition**
 ```
-Definition
 Sorting is the process of arranging data elements in a specific order, either Ascending Order or Descending Order.
 ```
 
 Ascending Order: Arranging elements from smallest to largest.
 
 Descending Order: Arranging elements from largest to smallest.
+
 ```
 Example:
 Unsorted Array:
@@ -16,6 +18,7 @@ Sorted Array (Ascending):
 Sorted Array (Descending):
 {8, 5, 3, 2, 1}
 ```
+
 Types of Sorting
 Sorting algorithms are mainly classified into two types:
 Internal Sorting: Sorting performed when all data is stored in main memory (RAM).
@@ -31,7 +34,7 @@ Quick Sort
 Heap Sort
 
 1. Bubble Sort
-```
+
 **Definition**
 Bubble Sort is a simple sorting algorithm that repeatedly compares two adjacent elements and swaps them if they are in the wrong order.
 This process continues until the entire array is sorted.
@@ -43,7 +46,7 @@ If the first element is greater than the second element, they are swapped.
 If the elements are already in the correct order, no swapping is required.
 After each pass, the largest unsorted element reaches its correct position.
 The process continues until the array becomes sorted.
-```
+
 
  **Bubble Sort Algorithm**
 ```
@@ -58,43 +61,34 @@ Repeat until all passes are completed.
 Display the sorted array.
 Stop.
 ```
+
  **Bubble Sort Example**
+
 ```
 Consider the following array:
 arr[] = {5, 3, 8, 2, 1};
-
 Pass 1:
-
 Compare adjacent elements:
-
 5 and 3 → Swap
-
 5 and 8 → No Swap
-
 8 and 2 → Swap
-
 8 and 1 → Swap
 
 Result:
-
 {3, 5, 2, 1, 8}
 
 Pass 2:
 
 3 and 5 → No Swap
-
 5 and 2 → Swap
-
 5 and 1 → Swap
 
 Result:
-
 {3, 2, 1, 5, 8}
 
 Pass 3:
 
 3 and 2 → Swap
-
 3 and 1 → Swap
 
 Result:
@@ -102,7 +96,6 @@ Result:
 {2, 1, 3, 5, 8}
 
 Pass 4:
-
 - 2 and 1 → Swap
 
 Result:
@@ -113,35 +106,9 @@ Final Sorted Array
 {1, 2, 3, 5, 8}
 
 ```
-Visual Demonstration
-Compare 5 and 2 → swap
-Scan → left to right: positions 1–7
-Fixed suffix grows ← from the right edge
-Pass 1
-·
-Comparison 1 of 6
-·
-1 swap
-2
-5
-7
-1
-6
-3
-4
-1
-2
-3
-4
-5
-6
-7
-Swap
-Result: 2, 5; 5 moves one place right
-Sorting step
-1
-Move through adjacent comparisons, finish the current pass, or shuffle the values and restart.
-5. Bubble Sort Program in C
+
+**Bubble Sort Program in C**
+
 Program: Bubble Sort in Ascending Order
 
 ```
@@ -185,93 +152,72 @@ int main()
     return 0;
 }
 ```
+**Output**
+
 ```
-Output
 Enter the number of elements: 5
 Enter array elements:
 5 3 8 2 1
 Sorted Array:
 1 2 3 5 8
 ```
- **Time Complexity Analysis**
+ 
+**Time Complexity Analysis**
  
 Time complexity describes how much time an algorithm takes to execute as the input size increases.
 
 Case
-
 Time Complexity
-
 Explanation
-
 Best Case
-
 O(n²)
 
 Standard Bubble Sort still performs comparisons
-
 Average Case
-
 O(n²)
-
 Elements require multiple comparisons and swaps
 
 Worst Case
-
 O(n²)
-
 Array is sorted in reverse order
 
 Space Complexity:
-
 Space Complexity: O(1)
 
 Bubble Sort is an in-place sorting algorithm.
-
 It does not require an additional array for sorting.
 
 Note: If we use an optimized Bubble Sort with a swapped flag, its best-case time complexity becomes O(n) when the array is already sorted.
 
-8. Advantages of Bubble Sort
+**Advantages of Bubble Sort**
+```
 Easy to understand and implement.
-
 Simple algorithm for beginners.
-
 Requires very little extra memory.
-
 Works well for small datasets.
-
 It is a stable sorting algorithm.
-
 No additional array is required.
+```
 
-9. Disadvantages of Bubble Sort
+**Disadvantages of Bubble Sort**
+```
 Slow for large datasets.
-
 Requires many comparisons.
-
 Performs many swapping operations.
-
 Less efficient than Quick Sort and Merge Sort.
-
 Not suitable for large amounts of data.
-
 Has O(n²) average and worst-case time complexity.
+```
 
-10. Applications of Bubble Sort
+**Applications of Bubble Sort**
+```
 Used for learning basic sorting concepts.
-
 Used for sorting small datasets.
-
 Used for understanding swapping and comparison operations.
-
 Used in educational programming examples.
-
 Useful when the dataset is nearly sorted with an optimized implementation.
+```
 
-11. Conclusion
-Bubble Sort is one of the simplest sorting algorithms in Data Structures and Algorithms. It works by comparing adjacent elements and swapping them when they are in the wrong order. Although it is easy to implement and understand, it is not efficient for large datasets because its average and worst-case time complexity is O(n²).
-
-Next topic suggestion for your DSA repository: Selection Sort — Definition, Theory, Algorithm, Example, C Program, Time Complexity, Advantages and Disadvantages.
 
 
 
