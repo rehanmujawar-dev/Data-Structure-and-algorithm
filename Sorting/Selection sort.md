@@ -1,7 +1,7 @@
 # Selection Sort
 
 **Definition**
-```text
+```
 Selection Sort is a simple comparison-based sorting algorithm that
 repeatedly selects the smallest element from the unsorted part of
 the array and places it at the beginning.
@@ -11,7 +11,7 @@ This process continues until the entire array becomes sorted.
 ```
 
 **Theory of Selection Sort**
-```text
+```
 Selection Sort works by repeatedly finding the minimum element
 from the unsorted portion of the array.
 
@@ -26,7 +26,7 @@ This process continues until all elements are sorted.
 ```
 
 **Working of Selection Sort**
-```text
+```
 1. Start.
 2. Read the number of elements n.
 3. Read array elements.
@@ -40,7 +40,7 @@ This process continues until all elements are sorted.
 ```
 
 **Selection Sort Example**
-```text
+```
 Consider the following array:
 
 arr[] = {64, 25, 12, 22, 11};
@@ -81,12 +81,9 @@ Final Sorted Array:
 {11, 12, 22, 25, 64}
 ```
 
-**Visual Demonstration**
-
-<LearningViz type_id="SELECTION_SORT" initial_values={{"order":"6,3,8,2,7,1,5,4"}} locale_override="en-IN"/>
 
 **Selection Sort Algorithm**
-```text
+```
 Algorithm: Selection Sort
 
 1. Start.
@@ -159,7 +156,7 @@ int main()
 ```
 
 **Output**
-```text
+```
 Enter number of elements: 5
 
 Enter array elements:
@@ -170,7 +167,7 @@ Sorted Array:
 ```
 
 **Time Complexity Analysis**
-```text
+```
 Time complexity describes how the execution time of an algorithm
 increases with the input size.
 
@@ -182,7 +179,7 @@ Worst Case    O(n^2)              All elements are compared.
 ```
 
 **Space Complexity:**
-```text
+```
 - Space Complexity: O(1).
 - Selection Sort is an in-place sorting algorithm.
 - It requires only a constant amount of extra memory.
@@ -190,7 +187,7 @@ Worst Case    O(n^2)              All elements are compared.
 ```
 
 **Advantages of Selection Sort**
-```text
+```
 1. Easy to understand and implement.
 2. Requires very little extra memory.
 3. It is an in-place sorting algorithm.
@@ -200,7 +197,7 @@ Worst Case    O(n^2)              All elements are compared.
 ```
 
 **Disadvantages of Selection Sort**
-```text
+```
 1. Not suitable for large datasets.
 2. Best, average and worst-case time complexity is O(n^2).
 3. Not a stable sorting algorithm in its standard implementation.
@@ -209,7 +206,7 @@ Worst Case    O(n^2)              All elements are compared.
 ```
 
 **Applications of Selection Sort**
-```text
+```
 1. Sorting small datasets.
 2. Useful when memory space is limited.
 3. Used when the number of swaps should be minimized.
