@@ -58,7 +58,6 @@ Index     Value
 **3. What is a Hash Function?**
 
 A Hash Function is a function that converts a key into an array index.
-
 It helps to determine where the data should be stored in a Hash Table.
 
 **Formula:**
@@ -89,7 +88,6 @@ A Collision occurs when two or more keys generate the same index using a hash fu
 
 ```
 Hash Function: h(key) = key % 10
-
 h(15) = 15 % 10 = 5
 h(25) = 25 % 10 = 5
 ```
@@ -109,7 +107,6 @@ There are mainly two categories:
 **1. Separate Chaining**
 
 In Separate Chaining, each index of the Hash Table contains a linked list.
-
 If multiple keys generate the same index, they are stored in that index's linked list.
 
 **Example:**
@@ -127,7 +124,6 @@ Index 5 → 15 → 25 → 35 → NULL
 **2. Open Addressing**
 
 In Open Addressing, all keys are stored directly inside the Hash Table.
-
 If a collision occurs, another empty index is searched.
 
 Types of Open Addressing:
