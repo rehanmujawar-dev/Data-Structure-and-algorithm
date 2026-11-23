@@ -108,7 +108,7 @@ Algorithm: Merge Sort
 
 **Merge Sort Program in C**
 
-**\*Program: Merge Sort in Ascending Order\***
+**Program: Merge Sort in Ascending Order**
 ```c
 #include <stdio.h>
 
