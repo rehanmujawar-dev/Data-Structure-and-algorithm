@@ -1,7 +1,7 @@
 
-**# Insertion Sort**
+# Insertion Sort
 
-**\*\*Definition\*\***
+**Definition**
 ```
 Insertion Sort is a simple comparison-based sorting algorithm that builds
 the sorted array one element at a time.
@@ -10,7 +10,7 @@ It works by taking one element from the unsorted part and inserting it
 into its correct position in the sorted part of the array.
 ```
 
-**\*\*Theory of Insertion Sort\*\***
+**Theory of Insertion Sort**
 ```
 Insertion Sort works similarly to arranging playing cards in your hand.
 
@@ -25,7 +25,7 @@ The current element is inserted into its correct position.
 This process continues until all elements are sorted.
 ```
 
-**\*\*Working of Insertion Sort\*\***
+**Working of Insertion Sort**
 ```
 1. Consider the first element as a sorted element.
 2. Select the next element as the key.
@@ -35,7 +35,7 @@ This process continues until all elements are sorted.
 6. Repeat the process until all elements are sorted.
 ```
 
-**\*\*Insertion Sort Example\*\***
+**Insertion Sort Example**
 ```
 Consider the following array:
 
@@ -92,7 +92,7 @@ Final Sorted Array:
 {2, 3, 4, 5, 8}
 ```
 
-**\*\*Insertion Sort Algorithm\*\***
+**Insertion Sort Algorithm**
 ```
 Algorithm: Insertion Sort
 
@@ -110,7 +110,7 @@ Algorithm: Insertion Sort
 10. Stop.
 ```
 
-**\*\*Insertion Sort Program in C\*\***
+**Insertion Sort Program in C**
 
 **\*Program: Insertion Sort in Ascending Order\***
 ```c
@@ -157,7 +157,7 @@ int main()
 }
 ```
 
-**\*\*Output\*\***
+**Output**
 ```
 Enter number of elements: 5
 
@@ -168,7 +168,7 @@ Sorted Array:
 2 3 4 5 8
 ```
 
-**\*\*Time Complexity Analysis\*\***
+**Time Complexity Analysis**
 ```
 Time complexity describes how the execution time of an algorithm
 increases with the input size.
@@ -180,14 +180,14 @@ Average Case  O(n^2)             Elements require shifting.
 Worst Case    O(n^2)             Array is sorted in reverse order.
 ```
 
-**\*\*Space Complexity:\*\***
+**Space Complexity:**
 ```
 - Space Complexity: O(1).
 - Insertion Sort is an in-place sorting algorithm.
 - It requires only a constant amount of extra memory.
 ```
 
-**\*\*Advantages of Insertion Sort\*\***
+**Advantages of Insertion Sort**
 ```
 1. Easy to understand and implement.
 2. Works efficiently for small datasets.
@@ -198,7 +198,7 @@ Worst Case    O(n^2)             Array is sorted in reverse order.
 7. Best-case time complexity is O(n).
 ```
 
-**\*\*Disadvantages of Insertion Sort\*\***
+**Disadvantages of Insertion Sort**
 ```
 1. Not suitable for large datasets.
 2. Average-case time complexity is O(n^2).
@@ -207,7 +207,7 @@ Worst Case    O(n^2)             Array is sorted in reverse order.
 5. Less efficient than Merge Sort and Quick Sort for large datasets.
 ```
 
-**\*\*Applications of Insertion Sort\*\***
+**Applications of Insertion Sort**
 ```
 1. Sorting small datasets.
 2. Sorting nearly sorted arrays.
