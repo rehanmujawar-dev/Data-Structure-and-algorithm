@@ -4,11 +4,11 @@
 Heap Sort is a comparison-based sorting algorithm that uses a Binary Heap data structure to sort elements.
 It first converts the given array into a Max Heap and then repeatedly removes the largest element and places it at the end of the array.
 ```
-`
+``
 Heap Sort arranges elements in either Ascending Order or Descending Order.
 - Ascending Order: Uses Max Heap.
 - Descending Order: Uses Min Heap.
-`
+``
 **Theory of Heap Sort**
 ```
 Heap Sort works using a special binary tree structure called a Heap.
@@ -28,7 +28,8 @@ Working of Heap Sort:
 3. Heap Structure Example
 ```
 **Max Heap:**
-```        50
+```        
+           50
           /  \
         30    40
        / \    /
