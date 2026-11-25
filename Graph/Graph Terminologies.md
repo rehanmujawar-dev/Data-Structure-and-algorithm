@@ -1,4 +1,4 @@
-# 🌐 GRAPH IN DATA STRUCTURES AND ALGORITHMS (DSA)
+# GRAPH 
 
 ## 1. What is a Graph?
 
