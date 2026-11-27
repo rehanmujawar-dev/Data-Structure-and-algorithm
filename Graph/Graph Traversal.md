@@ -1,6 +1,4 @@
-# Graph Traversal and Tree Traversal in DSA using C
-
-# PART 1: GRAPH TRAVERSAL
+# Graph Traversal
 
 ## 1. What is Graph Traversal?
 
